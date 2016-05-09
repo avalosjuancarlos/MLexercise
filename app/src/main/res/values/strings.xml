@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Mercado Pago</string>
+    <string name="error_request">Something wrong happened, try again</string>
+    <string name="activity_title_main">Select an Amount</string>
+    <string name="activity_title_payment_method">Select a Payment Method</string>
+    <string name="activity_title_card_issuers">Select a Card Issuer</string>
+    <string name="activity_title_installments">Select an installment</string>
+    <string name="hint_text_amount">select an amount</string>
+    <string name="invalid_amount_message">You need add an amount.</string>
+    <string name="message">Amount: %1$s\n\nPayment_Method_ID: %2$s\n\nIssuer_Id: %3$s\n\nRecommended_Message:\n%4$s</string>
+</resources>

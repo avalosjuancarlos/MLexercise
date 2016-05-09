@@ -1,0 +1,82 @@
+[
+  {
+    "payment_method_id": "visa",
+    "payment_type_id": "credit_card",
+    "issuer": {
+      "id": "288",
+      "name": "Tarjeta Shopping",
+      "secure_thumbnail": "https://www.mercadopago.com/org-img/MP3/API/logos/288.gif",
+      "thumbnail": "http://img.mlstatic.com/org-img/MP3/API/logos/288.gif"
+    },
+    "payer_costs": [
+      {
+        "installments": 1,
+        "installment_rate": 0,
+        "discount_rate": 0,
+        "labels": [],
+        "min_allowed_amount": 0,
+        "max_allowed_amount": 250000,
+        "recommended_message": "1 cuota de $ 100,00 ($ 100,00)",
+        "installment_amount": 100,
+        "total_amount": 100
+      },
+      {
+        "installments": 3,
+        "installment_rate": 0,
+        "discount_rate": 0,
+        "labels": [
+          "recommended_installment"
+        ],
+        "min_allowed_amount": 2,
+        "max_allowed_amount": 250000,
+        "recommended_message": "3 cuotas de $ 33,33 ($ 100,00)",
+        "installment_amount": 33.33,
+        "total_amount": 100
+      },
+      {
+        "installments": 6,
+        "installment_rate": 31.99,
+        "discount_rate": 0,
+        "labels": [],
+        "min_allowed_amount": 3,
+        "max_allowed_amount": 250000,
+        "recommended_message": "6 cuotas de $ 21,99 ($ 131,99)",
+        "installment_amount": 21.99,
+        "total_amount": 131.99
+      },
+      {
+        "installments": 9,
+        "installment_rate": 49.99,
+        "discount_rate": 0,
+        "labels": [],
+        "min_allowed_amount": 5,
+        "max_allowed_amount": 250000,
+        "recommended_message": "9 cuotas de $ 16,66 ($ 149,99)",
+        "installment_amount": 16.66,
+        "total_amount": 149.99
+      },
+      {
+        "installments": 12,
+        "installment_rate": 61.59,
+        "discount_rate": 0,
+        "labels": [],
+        "min_allowed_amount": 6,
+        "max_allowed_amount": 250000,
+        "recommended_message": "12 cuotas de $ 13,46 ($ 161,58)",
+        "installment_amount": 13.46,
+        "total_amount": 161.58
+      },
+      {
+        "installments": 18,
+        "installment_rate": 89.99,
+        "discount_rate": 0,
+        "labels": [],
+        "min_allowed_amount": 9,
+        "max_allowed_amount": 250000,
+        "recommended_message": "18 cuotas de $ 10,55 ($ 189,98)",
+        "installment_amount": 10.55,
+        "total_amount": 189.98
+      }
+    ]
+  }
+]
